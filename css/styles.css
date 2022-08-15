@@ -99,6 +99,8 @@ ul {
 .nav-link {
   text-decoration: none;
   color: var(--title-color);
+  transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .nav-link[title] {
   color: var(--accent-color);
@@ -146,6 +148,8 @@ ul {
   align-items: center;
   text-decoration: none;
   color: var(--main-text-color);
+  transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .mail-link-item,
 .tel-link-item {
@@ -372,10 +376,14 @@ height: 44px;
  height: 100%;
  color: var(--icon-color);
  border-radius: 50%;
+ transition-duration: 250ms;
+ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .team-icon {
   display: block;
   fill: currentColor;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .team-icon-link:hover,
 .team-icon-link:focus {
@@ -423,6 +431,8 @@ height: 44px;
   fill: var(--icon-color);
   border: 1px solid #AFB1B8;
   border-radius: 4px;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .clients-link:hover,
 .clients-link:focus {
@@ -467,6 +477,8 @@ height: 44px;
   letter-spacing: 0.03em;
   text-decoration: none;
   color: var(--white);
+  transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-mail-link,
 .footer-tel-link {
@@ -476,6 +488,8 @@ height: 44px;
   letter-spacing: 0.03em;
   text-decoration: none;
   color: rgba(255, 255, 255, 0.6);
+  transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-tel-link {
   padding-bottom: 0;
@@ -518,6 +532,8 @@ height: 44px;
   color: var(--white);
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
+  transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-icon {
   display: block;
@@ -588,6 +604,8 @@ height: 44px;
   border-radius: 4px;
   border-color: transparent;
   cursor: pointer;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .filter-btn:hover,
 .filter-btn:focus {
@@ -603,6 +621,10 @@ height: 44px;
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
+}
+.filter-item {
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .filter-item:hover {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
